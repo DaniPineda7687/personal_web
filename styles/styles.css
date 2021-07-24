@@ -54,6 +54,8 @@
 }
 
 .about-me i {
+  font-size: 1.5rem;
+  color: #ffffff;
   position: relative;
   text-align: center;
   top: 18rem;
@@ -61,13 +63,18 @@
 
 .skills-section {
   color: #0E0E0E;
-  height: 600px;
+  height: 650px;
 }
 
 .skills-section h2 {
   text-align: center;
   margin-bottom: 1rem;
   font-size: 1.5rem;
+}
+
+.skills-section p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
 }
 
 .skills-section .col {
@@ -135,12 +142,29 @@
   background-color: #f8582a;
 }
 
-.projects-section {
+.next {
+  text-align: center;
+  position: relative;
+  top: 6rem;
+  font-size: 1.5rem;
+}
+
+.next i {
   color: #0E0E0E;
+}
+
+.projects-section {
   background-color: #0E0E0E;
+  padding-bottom: 3rem;
+}
+
+.projects-section h2 {
+  text-align: center;
+  padding: 2rem 0 1rem 0;
 }
 
 .projects-grid {
+  color: #0E0E0E;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -158,6 +182,38 @@
   width: 90vw;
   max-width: 25rem;
   min-width: 15rem;
+}
+
+.contact {
+  color: #0E0E0E;
+  height: 350px;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 2rem 0 1rem 0;
+}
+
+.footer {
+  width: 100vw;
+  background-color: #0E0E0E;
+  height: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2rem;
+}
+
+.footer a {
+  color: #ffffff;
+  padding-left: 1rem;
 }
 
 * {

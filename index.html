@@ -25,9 +25,9 @@
     </nav>
     <div class="menu p-2 pt-5">
       <a class="nav-link" href="#">About me</a>
-      <a class="nav-link" href="#">Skills</a>
-      <a class="nav-link" href="#">Projects</a>
-      <a class="nav-link active" aria-current="page" href="#">Contact me</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link active" aria-current="page" href="#contact-me">Contact me</a>
     </div>
     <section class="about-me d-flex flex-column justify-content-center align-items-center">
       <div class="content-about-me">
@@ -38,9 +38,10 @@
     </section>
   </div>
   <!--SKILLS SECTION-->
-  <section id="skills" class="skills-section container-fluid p-3 pt-4">
+  <i id="skills"></i>
+  <section class="skills-section container-fluid p-3 pt-5">
     <h2>Skills and Technologies</h2>    
-    <div class="container">
+    <div>
       <p>Frontend</p>
       <div class="row row-cols-2">
         <div class="col">
@@ -85,7 +86,7 @@
         </div>
       </div>
       <p>Backend and applications development</p>
-      <div class="row row-cols-2">
+      <div class="backend row row-cols-2">
         <div class="col">
           <i class="fas fa-gem ruby"></i>
           <span>Ruby</span>
@@ -104,9 +105,14 @@
         </div>
       </div>
     </div>
+    <div class="next">
+      <a href="#projects"><i class="fas fa-chevron-down"></i></a>
+    </div>
   </section>
   <!--PROJECTS SECTION-->
+  <i id="projects"></i>
   <section class="projects-section container-fluid">
+    <h2>Projects</h2>
     <div class="col projects-grid">
       <article class="row">
         <div class="card pt-4 m-2">
@@ -115,8 +121,8 @@
             <h5 class="card-title">Project 1</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <a href="#" class="btn btn-primary">View code</a>
-            <a href="#" class="btn btn-primary">Live preview</a>
+            <a href="#" class="btn btn-warning">View code</a>
+            <a href="#" class="btn btn-success">Live preview</a>
           </div>
         </div>
       </article>
@@ -127,12 +133,31 @@
             <h5 class="card-title">Project 1</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <a href="#" class="btn btn-primary">View code</a>
-            <a href="#" class="btn btn-primary">Live preview</a>
+            <a href="#" class="btn btn-warning">View code</a>
+            <a href="#" class="btn btn-success">Live preview</a>
           </div>
         </div>
       </article>
     </div>
+  </section>
+  <!--CONTACT SECTION-->
+  <section class="contact container-fluid">
+    <i id="contact-me"></i>
+    <h2>Contact me</h2>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+  </section>
+  
+  <!--FOOTER-->
+  <section class="footer">
+    <a href="https://github.com/DaniPineda7687" target="_BLANK"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/daniel-santiago-rodr%C3%ADguez-pineda-5708aa1b2/" target="_BLANK"><i class="fab fa-linkedin-in"></i></a>
   </section>
   <script src="scripts/main.js"></script>
 

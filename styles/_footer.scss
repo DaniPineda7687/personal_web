@@ -1,0 +1,15 @@
+.footer{
+    width: 100vw;
+    background-color: $background-color;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    
+    a{ 
+        color: $color-text;
+        padding-left: 1rem;
+    }
+
+}
