@@ -1,0 +1,19 @@
+@import "variables";
+@import "nav";
+@import "about-me";
+@import "skills-section";
+@import "projects";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    color: $color-text;
+    
+}
+
+

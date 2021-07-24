@@ -1,0 +1,175 @@
+.nav {
+  width: 100vw;
+  height: 3rem;
+  position: fixed;
+  right: 0;
+  z-index: 200;
+  background-color: #0E0E0E;
+}
+
+.nav i {
+  font-size: 1.5rem;
+}
+
+.nav i:hover {
+  cursor: pointer;
+}
+
+.menu {
+  text-align: right;
+  height: 100vh;
+  width: 12rem;
+  background-color: #0E0E0E;
+  position: fixed;
+  top: 0;
+  right: -50rem;
+  z-index: 100;
+}
+
+.menu a {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.header {
+  position: relative;
+  z-index: 10;
+  height: 100vh;
+  background-color: #0E0E0E;
+}
+
+.about-me {
+  height: 95%;
+  text-align: center;
+}
+
+.about-me h1 {
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.about-me p {
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.about-me i {
+  position: relative;
+  text-align: center;
+  top: 18rem;
+}
+
+.skills-section {
+  color: #0E0E0E;
+  height: 600px;
+}
+
+.skills-section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.skills-section .col {
+  font-size: 2rem;
+  padding: .5rem;
+}
+
+.skills-section .col span {
+  font-size: 1rem;
+}
+
+.skills-section .html {
+  color: #e54c21;
+}
+
+.skills-section .bar-html {
+  background-color: #e54c21;
+}
+
+.skills-section .javascript {
+  color: #ead41c;
+}
+
+.skills-section .bar-js {
+  background-color: #ead41c;
+}
+
+.skills-section .css {
+  color: #1472b6;
+}
+
+.skills-section .bar-css {
+  background-color: #1472b6;
+}
+
+.skills-section .sass {
+  color: #ce6b9e;
+}
+
+.skills-section .bar-sass {
+  background-color: #ce6b9e;
+}
+
+.skills-section .bootstrap {
+  color: #7410f0;
+}
+
+.skills-section .bar-bootstrap {
+  background-color: #7410f0;
+}
+
+.skills-section .ruby {
+  color: #a31402;
+}
+
+.skills-section .bar-ruby {
+  background-color: #a31402;
+}
+
+.skills-section .java {
+  color: #f8582a;
+}
+
+.skills-section .bar-java {
+  background-color: #f8582a;
+}
+
+.projects-section {
+  color: #0E0E0E;
+  background-color: #0E0E0E;
+}
+
+.projects-grid {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  width: 90vw;
+  max-width: 25rem;
+  min-width: 15rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #ffffff;
+}
+/*# sourceMappingURL=styles.css.map */

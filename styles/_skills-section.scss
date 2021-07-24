@@ -1,0 +1,58 @@
+.skills-section{  
+    color: $background-color;
+    height: 600px;
+    h2{
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+    .col{
+        font-size: 2rem;
+        padding: .5rem;
+    }
+    .col span{
+        font-size: 1rem;
+    }
+    .html{
+        color:$color-html;
+    }
+    .bar-html{
+        background-color: $color-html;
+    }
+    .javascript{
+        color:$color-js ;
+    }
+    .bar-js{
+        background-color: $color-js;
+    }
+    .css{
+        color: $color-css;
+    }
+    .bar-css{
+        background-color: $color-css;
+    }
+    .sass{
+        color: $color-sass;
+    }
+    .bar-sass{
+        background-color: $color-sass;
+    }
+    .bootstrap{
+        color: $color-boostrap;
+    }
+    .bar-bootstrap{
+        background-color: $color-boostrap;
+    }
+    .ruby{
+        color: $color-ruby;
+    }
+    .bar-ruby{
+        background-color: $color-ruby;
+    }
+    .java{
+        color: $color-java;
+    }
+    .bar-java{
+        background-color: $color-java;
+    }
+}
